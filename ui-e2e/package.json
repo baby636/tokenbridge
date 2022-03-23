@@ -5,7 +5,7 @@
   "private": true,
   "devDependencies": {
     "chromedriver": "^77.0.0",
-    "mocha": "^5.2.0",
+    "mocha": "^6.2.3",
     "selenium-webdriver": "3.6.0"
   },
   "scripts": {
