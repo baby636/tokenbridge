@@ -18,7 +18,7 @@
     "eslint-plugin-react-hooks": "^1.6.0",
     "mocha": "^5.2.0",
     "prettier": "1.14.3",
-    "wsrun": "3.6.5"
+    "wsrun": "5.2.1"
   },
   "workspaces": [
     "commons",
