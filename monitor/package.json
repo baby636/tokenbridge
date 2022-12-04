@@ -16,9 +16,9 @@
   "dependencies": {
     "bignumber.js": "^6.0.0",
     "dotenv": "^5.0.1",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "node-fetch": "^2.1.2",
-    "web3": "1.0.0-beta.34"
+    "web3": "1.6.0"
   },
   "engines": {
     "node": ">=8.9"
