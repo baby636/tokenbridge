@@ -27,7 +27,7 @@
     "bignumber.js": "^7.2.1",
     "dotenv": "^5.0.1",
     "http-list-provider": "0.0.5",
-    "ioredis": "^3.2.2",
+    "ioredis": "^4.0.0",
     "node-fetch": "^2.1.2",
     "pino": "^4.17.3",
     "pino-pretty": "^2.0.1",
@@ -42,7 +42,7 @@
     "chai-as-promised": "^7.1.1",
     "concurrently": "^3.6.0",
     "ndjson": "^1.5.0",
-    "nyc": "^12.0.2",
+    "nyc": "^13.0.0",
     "proxyquire": "^2.0.1",
     "simple-statistics": "^6.1.0",
     "sinon": "^6.1.0"
