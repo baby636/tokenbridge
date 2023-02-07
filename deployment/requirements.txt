@@ -2,3 +2,4 @@
 molecule==2.22rc1
 docker
 flake8
+ansible>=7.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
