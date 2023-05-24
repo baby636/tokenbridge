@@ -24,8 +24,9 @@
     "react-scripts": "3.0.1",
     "react-transition-group": "^2.2.1",
     "sweetalert": "^2.1.0",
-    "web3": "1.0.0-beta.30",
-    "web3-utils": "1.0.0-beta.30"
+    "web3": "1.6.0",
+    "web3-utils": "1.0.0-beta.30",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "lint": "eslint . --ignore-path ../.eslintignore",
@@ -39,7 +40,9 @@
     "coverage": "react-app-rewired test --env=jsdom --coverage",
     "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
     "eject": "react-app-rewired eject",
-    "postinstall": "(cp lib/web3-eth/index.js ../node_modules/web3-eth/src; cp lib/web3-eth/index.js ./node_modules/web3-eth/src) || :"
+    "postinstall": "(cp lib/web3-eth/index.js ../node_modules/web3-eth/src; cp lib/web3-eth/index.js ./node_modules/web3-eth/src) || :",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
@@ -52,5 +55,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "snyk": true
 }
