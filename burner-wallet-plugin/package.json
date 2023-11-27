@@ -22,7 +22,7 @@
     "@typescript-eslint/eslint-plugin": "1.13.0",
     "@typescript-eslint/parser": "1.13.0",
     "eslint-plugin-react": "7.19.0",
-    "lerna": "3.16.4",
+    "lerna": "5.0.0",
     "typescript": "3.5.3"
   }
 }
