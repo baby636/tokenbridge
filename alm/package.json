@@ -24,10 +24,10 @@
     "react-app-rewired": "^2.1.6",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.0",
     "styled-components": "^5.1.1",
     "typescript": "^3.5.2",
-    "web3": "1.2.7",
+    "web3": "4.0.1",
     "web3-eth-contract": "1.2.7"
   },
   "scripts": {
