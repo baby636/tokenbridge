@@ -33,7 +33,7 @@
     "pino-pretty": "^2.0.1",
     "promise-limit": "^2.7.0",
     "promise-retry": "^1.1.1",
-    "web3": "1.0.0-beta.34",
+    "web3": "1.2.0",
     "web3-utils": "1.0.0-beta.34"
   },
   "devDependencies": {
@@ -42,7 +42,7 @@
     "chai-as-promised": "^7.1.1",
     "concurrently": "^3.6.0",
     "ndjson": "^1.5.0",
-    "nyc": "^12.0.2",
+    "nyc": "^15.0.0",
     "proxyquire": "^2.0.1",
     "simple-statistics": "^6.1.0",
     "sinon": "^6.1.0"
