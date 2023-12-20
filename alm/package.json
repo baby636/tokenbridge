@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@react-hook/window-size": "^3.0.6",
-    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "@types/jest": "^24.0.0",
@@ -24,10 +24,10 @@
     "react-app-rewired": "^2.1.6",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.0",
     "styled-components": "^5.1.1",
     "typescript": "^3.5.2",
-    "web3": "1.2.7",
+    "web3": "4.0.1",
     "web3-eth-contract": "1.2.7"
   },
   "scripts": {
