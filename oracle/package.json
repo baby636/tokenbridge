@@ -42,10 +42,10 @@
     "chai-as-promised": "^7.1.1",
     "concurrently": "^3.6.0",
     "ndjson": "^1.5.0",
-    "nyc": "^12.0.2",
+    "nyc": "^13.0.0",
     "proxyquire": "^2.0.1",
     "simple-statistics": "^6.1.0",
-    "sinon": "^6.1.0"
+    "sinon": "^16.1.2"
   },
   "engines": {
     "node": ">= 8.9"
