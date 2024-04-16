@@ -12,7 +12,7 @@
     "fs-extra": "^5.0.0",
     "mobx": "^4.0.2",
     "mobx-react": "^5.0.0",
-    "node-sass-chokidar": "^1.0.1",
+    "node-sass-chokidar": "^2.0.0",
     "numeral": "^2.0.6",
     "react": "16.13.1",
     "react-app-rewire-mobx": "^1.0.7",
@@ -21,7 +21,7 @@
     "react-dom": "16.13.1",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "3.0.1",
+    "react-scripts": "4.0.0",
     "react-transition-group": "^2.2.1",
     "sweetalert": "^2.1.0",
     "web3": "1.0.0-beta.30",
@@ -42,8 +42,8 @@
     "postinstall": "(cp lib/web3-eth/index.js ../node_modules/web3-eth/src; cp lib/web3-eth/index.js ./node_modules/web3-eth/src) || :"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
-    "jest-dom": "^3.0.1",
+    "babel-eslint": "^10.1.0",
+    "jest-dom": "^4.0.0",
     "nodemon": "^1.18.11",
     "react-testing-library": "^5.4.4"
   },
