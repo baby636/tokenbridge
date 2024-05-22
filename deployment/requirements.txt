@@ -2,3 +2,4 @@
 molecule==2.22rc1
 docker
 flake8
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
