@@ -10,7 +10,7 @@
   "dependencies": {
     "jest": "24.7.1",
     "jest-puppeteer": "^4.4.0",
-    "puppeteer": "^5.2.1"
+    "puppeteer": "^22.8.2"
   },
   "jest": {
     "preset": "jest-puppeteer"
