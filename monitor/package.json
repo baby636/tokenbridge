@@ -24,6 +24,6 @@
     "node": ">=8.9"
   },
   "devDependencies": {
-    "chai": "^4.2.0"
+    "chai": "^4.3.10"
   }
 }
