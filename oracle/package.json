@@ -45,7 +45,7 @@
     "nyc": "^12.0.2",
     "proxyquire": "^2.0.1",
     "simple-statistics": "^6.1.0",
-    "sinon": "^6.1.0"
+    "sinon": "^19.0.0"
   },
   "engines": {
     "node": ">= 8.9"
