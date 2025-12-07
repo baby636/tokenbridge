@@ -5,12 +5,15 @@
   "scripts": {
     "test": "jest --detectOpenHandles",
     "lint": "eslint . --ignore-path ../.eslintignore",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "jest": "24.7.1",
     "jest-puppeteer": "^4.4.0",
-    "puppeteer": "^5.2.1"
+    "puppeteer": "^5.2.1",
+    "@snyk/protect": "latest"
   },
   "jest": {
     "preset": "jest-puppeteer"
@@ -20,5 +23,6 @@
   },
   "engines": {
     "node": ">= 8.9"
-  }
+  },
+  "snyk": true
 }
